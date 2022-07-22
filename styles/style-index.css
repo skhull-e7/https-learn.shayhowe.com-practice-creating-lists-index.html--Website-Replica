@@ -1,9 +1,5 @@
 /* CSS rule for .registrationSection Element */
 
-* {
-    border: 0;
-}
-
 .registerSection{
     padding: auto;
     padding-left: calc((100vw - 1050px) / 2);

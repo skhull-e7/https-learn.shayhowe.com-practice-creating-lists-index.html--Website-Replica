@@ -1,14 +1,8 @@
 *{
     box-sizing: border-box;
-    border: 1px black solid;
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-}
-
-
-body, .ontop p, a, header, .flexHeader, .mainHeading, .mainHeading h1, .navPanel, .mainHeading h1 a, .subHeading, .subHeading h2, .nav, .nav ul, .nav ul li, html{
-    border: 0;
 }
 
 body{
@@ -19,7 +13,7 @@ body{
 /* .ontop Section Style */
 
 .ontop {
-    padding: 15px 25px;
+    padding: 13px 25px;
     border: 0;
     background: #42444e;
     border-bottom: .5px black solid;
@@ -133,7 +127,7 @@ footer{
 .footerWidth{
     width: 1050px;
     display: flex;
-    padding: 50px 5%;
+    padding: 48px 5%;
     justify-content: space-between;
     align-items: baseline;
 }
