@@ -61,7 +61,7 @@ header {
     font-weight: 20;
     letter-spacing: .5px;
     line-height: 44px;
-    padding: 40px 0 22px 0;
+    padding: 40px 0 40px 0;
     text-transform: uppercase;
     border-top: 4px solid #648880;
 }
@@ -81,7 +81,7 @@ header {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-bottom: 22px;
+    padding-bottom: 40px;
     padding-right: 5%;
 }
 
