@@ -1,0 +1,57 @@
+/* CSS rule for .registrationSection Element */
+
+* {
+    border: 0;
+}
+
+.registerSection{
+    padding: auto;
+    padding-left: calc((100vw - 1050px) / 2);
+    padding-right: calc((100vw - 1050px) / 2);
+}
+
+.forWidth{
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    gap: 10px;
+}
+
+.registerSection .sectionMainHeading h1{
+    font-size: 36px;
+    font-weight: 350;
+    color: #648880;
+}
+
+.registerSection h3{
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 120px;
+}
+
+.registerSection button{
+    border: 1px white solid;
+    text-align: center;
+    vertical-align:baseline;
+    font-size: 17px;
+    padding: 22px 47px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.registerSection button:hover{
+    background-color: #fff;
+    color: #648880;
+}
+/* END */
+
