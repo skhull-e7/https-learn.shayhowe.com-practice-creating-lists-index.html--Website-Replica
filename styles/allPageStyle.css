@@ -4,3 +4,9 @@
     margin: 0;
     padding: 0;
 }
+
+.ontop {
+    padding: 10px;
+    border: 0;
+    background: #42444e;
+}
