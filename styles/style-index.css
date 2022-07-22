@@ -55,6 +55,8 @@
 }
 /* END */
 
+
+/* Rule for Main Element */
 main{
     padding: auto;
     padding-left: calc((100vw - 1050px) / 2);
@@ -117,3 +119,5 @@ a{
 .mainCards p{
     padding-right: 40px;
 }
+
+/* END */
