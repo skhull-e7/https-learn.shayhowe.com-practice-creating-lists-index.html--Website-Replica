@@ -1,11 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
 
-body{
+body {
     background: #293f50;
 }
 
@@ -28,18 +28,19 @@ body{
     text-decoration: none;
     color: #9799a7;
 }
+
 /* .ontop Section Style End */
 
 
 /* Header Section Style */
 
-header{
+header {
     padding: auto;
     padding-left: calc((100vw - 1050px) / 2);
     padding-right: calc((100vw - 1050px) / 2);
 }
 
-.flexHeader{
+.flexHeader {
     width: 1050px;
     display: flex;
     flex-direction: row;
@@ -47,10 +48,10 @@ header{
     align-items: stretch;
 }
 
-.mainHeading{
+.mainHeading {
     width: 40%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding-left: 5%;
 }
@@ -65,16 +66,16 @@ header{
     border-top: 4px solid #648880;
 }
 
-.mainHeading h1 a{
+.mainHeading h1 a {
     text-decoration: none;
     color: #fff;
 }
 
-.mainHeading h1 a:hover{
+.mainHeading h1 a:hover {
     color: #648880;
 }
 
-.navPanel{
+.navPanel {
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -84,47 +85,48 @@ header{
     padding-right: 5%;
 }
 
-.subHeading{
+.subHeading {
     padding: 20px;
     padding-right: 0;
     text-align: right;
     color: #648880;
 }
 
-.subHeading h2{
+.subHeading h2 {
     font-weight: 300;
     font-size: 25px;
 }
 
-.nav ul li{
+.nav ul li {
     display: inline-block;
     padding-left: 15px;
     text-align: right;
 }
 
-.nav li a{
+.nav li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-weight: 400;
 }
 
-.nav li a:hover{
+.nav li a:hover {
     color: #648880;
 }
+
 /* Header Section Style End */
 
 
 
 /* Footer Section Style */
 
-footer{
+footer {
     padding: auto;
     padding-left: calc((100vw - 1050px) / 2);
     padding-right: calc((100vw - 1050px) / 2);
 }
 
-.footerWidth{
+.footerWidth {
     width: 1050px;
     display: flex;
     padding: 48px 5%;
@@ -132,13 +134,13 @@ footer{
     align-items: baseline;
 }
 
-.footernav li a{
+.footernav li a {
     font-size: 13px;
     font-weight: 300;
     text-transform: none;
 }
 
-.copyright h4{
+.copyright h4 {
     font-size: 14px;
     font-weight: 400;
     color: #648880;

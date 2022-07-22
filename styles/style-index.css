@@ -1,12 +1,12 @@
 /* CSS rule for .registrationSection Element */
 
-.registerSection{
+.registerSection {
     padding: auto;
     padding-left: calc((100vw - 1050px) / 2);
     padding-right: calc((100vw - 1050px) / 2);
 }
 
-.forWidth{
+.forWidth {
     width: 1050px;
     display: flex;
     flex-direction: column;
@@ -17,13 +17,13 @@
     gap: 10px;
 }
 
-.registerSection .sectionMainHeading h1{
+.registerSection .sectionMainHeading h1 {
     font-size: 36px;
     font-weight: 350;
     color: #648880;
 }
 
-.registerSection h3{
+.registerSection h3 {
     color: white;
     font-weight: 100;
     font-size: 25px;
@@ -31,10 +31,10 @@
     padding: 0 120px;
 }
 
-.registerSection button{
+.registerSection button {
     border: 1px white solid;
     text-align: center;
-    vertical-align:baseline;
+    vertical-align: baseline;
     font-size: 15px;
     padding: 22px 35px;
     border-radius: 5px;
@@ -45,22 +45,23 @@
     margin-top: 30px;
 }
 
-.registerSection button:hover{
+.registerSection button:hover {
     background-color: #fff;
     color: #648880;
 }
+
 /* END */
 
 
 /* Rule for Main Element */
-main{
+main {
     padding: auto;
     padding-left: calc((100vw - 1050px) / 2);
     padding-right: calc((100vw - 1050px) / 2);
     background-color: white;
 }
 
-.mainWidth{
+.mainWidth {
     width: 1050px;
     min-width: 1050px;
     display: flex;
@@ -71,48 +72,48 @@ main{
     background-color: white;
 }
 
-.mainCards{
+.mainCards {
     height: 280px;
     padding: 40px 0;
     padding-top: 30px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.cardInfo a{
+.cardInfo a {
     color: #a9b2b9;
     font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
 }
 
-.cardMainHeading a{
+.cardMainHeading a {
     color: #648880;
     font-size: 25px;
     font-weight: 340;
 }
 
-.cardContent p{
+.cardContent p {
     color: #888;
     font-size: 16px;
     font-weight: 300;
 }
 
-.cardMainHeading a:hover{
+.cardMainHeading a:hover {
     color: #a9b2b9;
 }
 
-.cardInfo a:hover{
+.cardInfo a:hover {
     color: #648880;
 }
 
-.mainCards div{
+.mainCards div {
     padding-top: 17px;
 }
 
-.mainCards p{
+.mainCards p {
     padding-right: 40px;
 }
 
