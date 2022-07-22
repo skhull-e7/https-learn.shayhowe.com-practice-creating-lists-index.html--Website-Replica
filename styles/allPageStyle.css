@@ -119,3 +119,33 @@ header{
     color: #648880;
 }
 /* Header Section Style End */
+
+
+
+/* Footer Section Style */
+
+footer{
+    padding: auto;
+    padding-left: calc((100vw - 1050px) / 2);
+    padding-right: calc((100vw - 1050px) / 2);
+}
+
+.footerWidth{
+    width: 1050px;
+    display: flex;
+    padding: 50px 5%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footernav li a{
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.copyright h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #648880;
+}
